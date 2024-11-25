@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Puppins', sans-serif;
+}
+header{
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.253);
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.span{
+    color: #d48b04;
+    font-style: italic;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    margin: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.send{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+.first{
+    height: 700px;
+    background-image: url("Images/bg\ pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.650);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover h1{
+    font-size: 15rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.first-content{
+    width: 70%;
+}
+.contact-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.contact-field{
+    width: 50%;
+    margin-left: 100px;
+}
+.contact-btn{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.253);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.first-text{
+    width: 55%;
+}
+.first-text h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.first-text p{
+    color: #fff;
+    line-height: 25px;
+}
+.second{
+    height: 600px;;
+    background-color: rgb(43, 43, 43);
+}
+.second h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 30px;
+    margin-left: 200px;
+}
+.second-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second-text{
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.second-text p{
+    width: 90%;
+    margin: 20px;
+    color: #fff;
+}
+.third{
+    height: 300px;
+    background-image: url(Images/pizza3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.658);
+}
+.forth{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forth-content{
+    width: 80%;
+    margin-top: 80px;
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.forth .info{
+    margin: 50px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.info img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+.fifth{
+    height: 300px;
+    background-image: url(Images/pizza4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.658);
+}
+.sixth{
+    height: 400px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixth-cover{
+    width: 80%;
+}
+.sixth-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 500px;
+}
+h1{
+    margin-left: 20px;
+}
+h2{
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 60px;
+    color: #d48b04;
+    font-weight: 400;
+}
+.sixth-content p{
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: justify;
+}
+.seventh{
+    height: 300px;
+    background-image: url(Images/pizza5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.658);
+}
+.seventh .cover{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.seventh h1{
+    font-size: 3rem;
+    margin: 0;
+}
+.seventh .contact-field{
+    margin: 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 50%;
+}
+.contact-btn{
+    margin: 0 auto;
+}
+.eight{
+    height: 1300px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eight-content{
+    width: 80%;
+}
+.eight-content h1{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.text-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eight-text p{
+    color: #fff;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    line-height: 25px;
+}
+.text-parts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eight-text{
+    margin-top: -100px;
+}
+.text-parts .part .one{
+    margin: 50px 10px;
+}
+.text-parts .part .one h4{
+    color: #d48b04;
+    margin-bottom: 10px;
+}
+.nineth{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.nineth-content{
+    width: 80%;
+    margin-top: 80px;
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.info{
+    margin: 0;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 35px 0;
+}
+.info .price{
+    color: #d48b04;
+}
+.two-more{
+    background-color: #af8332;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.two-more .info{
+    width: 80%;
+    margin: 0;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 35px 0;
+}
+
+.tenth{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 1000px;
+}
+.tenth-content{
+    width: 80%;
+    margin-top: 80px;
+}
+h1{
+    padding: 20px;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.tenth p{
+    font-size: 3rem;
+    width: 80%;
+    color: #fff;
+}
+.contact{
+    height: 500px;
+    width: 700px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: left;
+    margin-top: 60px;
+}
+.contact-content{
+    width: 80%;
+}
+.details{
+    border-bottom: 1px solid black;
+}
+.details p{
+    color: rgb(99, 99, 99);
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.textarea textarea{
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+.send-btn{
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+footer{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-cover{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px 0;
+}
